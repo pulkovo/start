@@ -1,0 +1,138 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #f8f8f8;
+}
+
+legend{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #d13f70;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img{
+    height: 350px;
+    width: 500px;
+    outline: 5px solid grey;
+}
+
+.img:hover{
+    outline: none;
+}
+
+.imgCatalog{
+    height: 350px;
+    width: 500px;
+}
+
+.imgCatalog:hover{
+    outline: 3px dotted black;
+}
+
+.headline{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.shortDescription{
+    color: #707070;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.detailedDescription{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+@font-face{
+    font-family: "Serpentin DG Bold Italic";
+    src: url('fonts/Serpentin\ DG\ Bold\ Italic.otf');
+}
+
+.character{
+    font-family: "Serpentin DG Bold Italic";
+    font-size: 26px;
+}
+
+.menu:hover{
+    color: #0372ab;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.websiteName{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    background: #707070;
+}
+
+input[type="email"]:focus{
+    background: red;
+    font-weight: bold;
+    color: black;
+}
+
+.firstLetter{
+    text-transform: capitalize;/*Заглавные буквы пишутся с большой.*/
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 435px;
+}
+
+td{
+    border: 1px solid black;
+}
+
+/*.firstCell{
+    width: 200px;
+}
+
+.secondCell{
+    width: 245px;
+}*/
+
+td:nth-child(1n){
+    width: 200px;
+}
+
+td:nth-child(2n){
+    width: 245px;
+}
+
+/*a[href^="http://"]*/
+
+p:first-letter{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d13f70;
+}
+
+
